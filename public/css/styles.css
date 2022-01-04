@@ -1,0 +1,63 @@
+body {
+  color: #333333;
+  font-family: arial;
+  text-align: center;
+  background: #fff1f3;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+        flex-grow: 1;
+}
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+  color: #696969;
+  text-align: center;
+}
+
+.my-picture {
+  object-fit: cover;
+  width: 650px;
+  height: 650px;
+  object-fit: cover;
+  object-position: 0 72%;
+}
+
+.about-pic {
+  text-align: center;
+}
+
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  text-decoration: none;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 16px;
+  color: #888888;
+}
+
+._404 {
+  direction: rtl;
+  text-align: center;
+  margin: 25vh;
+}
+
+footer {
+  color: #888888;
+  border-top: 2px solid #eeeeee;
+  margin-top: 16px;
+  padding-top: 16px 0;
+  bottom: 0px;
+  text-align: center;
