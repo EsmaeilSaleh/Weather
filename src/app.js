@@ -76,7 +76,7 @@ app.get("*", (req, res) => {
   res.render("404", {
     title: "404",
     name: "Esmaeil Saleh",
-    errorMessage: "Not Found!\n نیافتم!",
+    errorMessage: "Not found",
   });
 });
 
